@@ -1,0 +1,32 @@
+{
+  "name": "react-testing-enzyme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bguzmanrio/react-testing-enzyme.git"
+  },
+  "author": "bguzmanrio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bguzmanrio/react-testing-enzyme/issues"
+  },
+  "homepage": "https://github.com/bguzmanrio/react-testing-enzyme#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.0.3",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "jest": "^21.2.1",
+    "jest-enzyme": "^4.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  }
+}

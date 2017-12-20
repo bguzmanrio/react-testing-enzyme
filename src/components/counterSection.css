@@ -1,0 +1,13 @@
+.counter-section {
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.counter.primary {
+  border: 1px solid red;
+}
+
+.counter.secondary {
+  border: 1px solid blue;
+}
