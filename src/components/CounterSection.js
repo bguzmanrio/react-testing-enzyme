@@ -7,7 +7,8 @@ import './counterSection.css';
 
 class CounterSection extends Component {
   static defaultProps = {
-    interval: 1000
+    interval: 1000,
+    onUpdate: () => {}
   };
 
   state = {
@@ -17,7 +18,7 @@ class CounterSection extends Component {
 
   updateState = (newState) => {
     this.setState(newState, () => {
-      this.props.onUpdate && this.props.onUpdate(this.state);
+      this.props.onUpdate(this.state);
     });
   };
 
